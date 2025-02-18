@@ -26,7 +26,7 @@ const Navbar = () => {
     <nav className="navbar navbar-expand-lg navbar-light bg-light">
       <div className="container-fluid">
         <Link className="navbar-brand" to="/">
-          FreeVerse
+        <img src="/images/FV.png" alt="FreeVerse Logo" width="50" height="50" /> FreeVerse
         </Link>
         {/* Toggle Button for Small Screens */}
         <button

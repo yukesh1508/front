@@ -63,6 +63,12 @@
     background-color: #dc3545;
     color: #fff; /* White text on hover */
   }
+  .navbar-brand img {
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+  }
+  
   
   /* Responsive Design */
   @media (max-width: 992px) {
