@@ -16,11 +16,7 @@ const Navbar = () => {
     }
   };
 
-  const handleLogout = () => {
-    // Clear user session or token (adjust logic based on your authentication method)
-    
-    navigate("/login"); // Redirect to login page
-  };
+
 
   return (
     <nav className="navbar navbar-expand-lg navbar-light bg-light">
@@ -81,9 +77,7 @@ const Navbar = () => {
             </button>
           </form>
           {/* Logout Button */}
-          <button className="btn btn-outline-danger ms-3" onClick={handleLogout}>
-            Logout
-          </button>
+         
         </div>
       </div>
     </nav>
